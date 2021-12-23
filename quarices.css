@@ -1,0 +1,71 @@
+@media only screen and (max-width:1200px){
+    .container{
+        max-width: 80%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:992px){
+    .container{
+        max-width: 80%;
+        margin: auto;
+    }
+    button{
+        margin: 1rem ;
+    }
+
+    header .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .about-grid{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .sumbit-box-grid{
+        grid-template-columns: 1fr;
+    }
+    .ph-cng-grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width:768px){
+    .container{
+        max-width: 80%;
+        margin: auto;
+    }
+    header .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .about-grid{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .sumbit-box-grid{
+        grid-template-columns: 1fr;
+    }
+    .ph-cng-grid{
+        grid-template-columns: 1fr;
+    }
+    .menu ul li a{
+        margin: 0;
+        padding:0.5rem 5rem;
+    }
+    .menu ul li {
+        display: block;
+        margin: 1rem 0;
+    }
+    .box-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:575px){
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+}
+  
